@@ -32,16 +32,16 @@
 	<div id="colorlib-page">
 		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
 		<aside id="colorlib-aside" role="complementary" class="js-fullheight text-center">
-			<h1 id="colorlib-logo"><a href="index.html">Adam Carnall</a></h1>
+            <h1 id="colorlib-logo"><a href="index.html">Adam Carnall</a></h1>
 			<p>Leverhulme Early Career Fellow</p>
 			<p style="margin-top: -0.5cm; margin-bottom: 1cm;">Royal Observatory Edinburgh</p>
 
 			<nav id="colorlib-main-menu" role="navigation">
 				<ul>
-					<li class="colorlib-active"><a href="index.html">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
 					<li><a href="#about">About</a></li>
 					<li><a href="https://accarnall.github.io/cv/adam_carnall_cv.pdf">CV</a></li>
-					<li><a href="resources.html">Resources</a></li>
+					<li class="colorlib-active"><a href="resources.html">Resources</a></li>
 					<li><a href="https://ui.adsabs.harvard.edu/search/filter_database_fq_database=OR&filter_database_fq_database=database%3A%22astronomy%22&fq=%7B!type%3Daqp%20v%3D%24fq_database%7D&fq_database=(database%3A%22astronomy%22)&p_=0&q=author%3A(%22Carnall%2C%20a%22)&sort=date%20desc%2C%20bibcode%20desc">Publications</a></li>
 					<li><a href="https://bagpipes.readthedocs.io">Bagpipes</a></li>
 				</ul>
@@ -50,46 +50,66 @@
 			<div class="colorlib-footer">
 				<p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
 			  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-				<ul>
-					<li><a href="https://www.github.com/ACCarnall"><i class="icon-github"></i></a></li>
-					<li><a href="https://www.twitter.com/accarnall"><i class="icon-twitter"></i></a></li>
-					<li><a href="https://www.instagram.com/accarnall"><i class="icon-instagram"></i></a></li>
-					<li><a href="https://uk.linkedin.com/in/accarnall"><i class="icon-linkedin"></i></a></li>
-				</ul>
 			</div>
 		</aside> <!-- END COLORLIB-ASIDE -->
 		<div id="colorlib-main">
-			<div class="hero-wrap js-fullheight" style="background-image: url(images/bg_1.jpg);" data-stellar-background-ratio="1.0">
+			<div class="hero-wrap">
 				<div class="overlay"></div>
-				<div class="js-fullheight d-flex justify-content-center align-items-center">
-					<div class="col-md-8 text text-center">
-						<div class="img mb-4" style="background-image: url(images/profile.jpeg);"></div>
-						<div class="desc">
-							<a id="about">
-							<h1 class="mb-4">Adam Carnall</h1>
-							</a>
-							<div style="margin-bottom:6cm;"></div>
+				<div class="d-flex justify-content-center align-items-center">
+					<div class="col-md11 text text-center">
+						<div style="margin-top:1.5cm">
+							<h1 class="mb-4" style="margin-top:0.5cm">Resources</h1>
+
 						</div>
 					</div>
 				</div>
 			</div>
-			<section class="ftco-section">
+            <section class="ftco-section">
     	<div class="container">
     		<div class="row justify-content-center mb-5 pb-2">
-          <div class="col-md-9 heading-section text-center ftco-animate" >
-            <p style="margin-top:-1cm; margin-bottom:0.8cm;">I'm an astrophysicist studying the formation and evolution of galaxies across cosmic time. I currently hold a <a href="https://www.leverhulme.ac.uk">Leverhulme Early Career Fellowship</a> at the <a href="https://ifa.roe.ac.uk">Royal Observatory Edinburgh</a>. </p>
+                <div class="col-md-9 heading-section text-center ftco-animate">
 
-						<p style="margin-bottom:0.8cm;">My research focus is the application of advanced statistical techniques to astronomical datasets. In particular I develop the publicly available <a href="https://bagpipes.readthedocs.io">Bagpipes</a> code for galaxy spectral fitting. </p>
+                    <p style="margin-top:-2cm; margin-bottom:0.8cm;">This page contains a list of hopefully useful notebooks and bits of code I've written up at one time or another, generally related to galaxy spectral fitting, Bayesian statistics and sampling methods.</p>
 
-						<p style="margin-bottom:0.8cm;">I'm interested in how the most massive galaxies form during the first few billion years of cosmic history, and am involved in efforts to <a href="https://arxiv.org/abs/2001.11975">find</a> and <a href="https://arxiv.org/abs/1903.11082">characterise<a> these objects in the distant Universe. </p>
+                    <hr>
 
-							<p style="margin-bottom:0.8cm;">I primarily work with data from <a href="https://www.eso.org/public/">ESO</a> telescopes at <a href="https://www.eso.org/public/teles-instr/paranal-observatory/">Paranal Observatory</a>, Chile. I'm a core team member of the <a href="http://vandels.inaf.it">VANDELS</a> survey and am heavily involved in the <a href="https://vltmoons.org">MOONS</a> collaboration.</p>
+                    <h4 class="mb-4" style="margin-top:0.5cm">Spectral fitting unconference sessions</h4>
 
-							<p style="margin-bottom:0.8cm;">I was recently awarded a <a href="https://www.jwst.nasa.gov">James Webb Space Telescope</a> Cycle 1 <a href=https://www.stsci.edu/jwst/science-execution/program-information?id=2285>observing program</a>, and I'm also a member of the <a href=https://www.stsci.edu/jwst/science-execution/program-information?id=1837>Primer</a> large treasury program team.</p>
+                    <p style="margin-top:0cm; margin-bottom:0.8cm;">With <a href="https://kartheikiyer.github.io">Kartheik Iyer</a>, I ran two <a href="https://stsci-mos-sed.github.io">unconference sessions</a> on galaxy spectral fitting at the <a href="https://www.stsci.edu/contents/events/stsci/2021/may/multi-object-spectroscopy-for-statistical-measures-of-galaxy-evolution">STScI multi-object spectroscopy conference in 2021</a>. We wrote a series of <a href="https://drive.google.com/drive/folders/1sPKUKGE5sRH_1RRw3PJe2Zi57TBPz5Pr?usp=sharing">Google Colab notebook exercises</a> covering a range of topics, including basic usage of <a href="https://bagpipes.readthedocs.io">Bagpipes</a>, the effects of priors and data quality on spectral fitting, fitting spectroscopic data, sampling methods, and GPU computing with Google Tensorflow.</p>
 
-							<p style="margin-bottom:-2cm;">Apart from my work I enjoy being outdoors in the Scottish Highlands, and I'm on a mission to climb all <a href="https://www.walkhighlands.co.uk/Forum/memberlist.php?mode=viewmap&u=81733">282 Munros</a>, which are mountains in Scotland over 3000 feet.</p>
+                    <hr>
+
+                    <h4 class="mb-4" style="margin-top:0.5cm">Bayesian hierarchical modelling and Gibbs sampling</h4>
+
+                    <p style="margin-top:0cm; margin-bottom:0.8cm;">Whilst attending the <a href="https://www.imperial.ac.uk/astrophysics/centre-for-inference-and-cosmology/seminars-and-events/data-analysis-workshops">ICIC data analysis workshop</a>, I wrote up a couple of <a href="https://github.com/ACCarnall/ICIC_DAW/tree/master/hierarchical_gibbs">Jupyter notebooks</a> on using Gibbs sampling to sample from posterior distributions with hundreds to thousands of dimensions. </a> I also wrote up a <a href="https://github.com/ACCarnall/gibbs_sampler">basic Python module</a> for Gibbs sampling from general probability distributions.</p>
+
+                    <hr>
+
+                    <h4 class="mb-4" style="margin-top:0.5cm">Nested sampling</h4>
+
+                    <p style="margin-top:0cm; margin-bottom:0.8cm;">I wrote up a <a href="https://github.com/ACCarnall/loch_nest_monster">basic Python package for nested sampling</a> whilst reading <a href="https://projecteuclid.org/journals/bayesian-analysis/volume-1/issue-4/Nested-sampling-for-general-Bayesian-computation/10.1214/06-BA127.full">Skilling 2006</a> to learn more about how the method works. This isn't the most efficient code to use on real data, but it might be a useful guide if you're looking to write something similar to understand the nested sampling algorithm better.</p>
+
+                    <hr>
+
+                    <h4 class="mb-4" style="margin-top:0.5cm">Basic galaxy spectral fitting tutorial</h4>
+
+                    <p style="margin-top:0cm; margin-bottom:0.8cm;"><a href="https://github.com/ACCarnall/sed_fitting_tutorial">This repository</a> contains a series of Jupyter notebooks that will take you through writing a very basic galaxy spectral fitting code.</p>
+
+                    <hr>
+
+                    <h4 class="mb-4" style="margin-top:0.5cm">Parallel processing in Python</h4>
+
+                    <p style="margin-top:0cm; margin-bottom:0.8cm;">While getting to grips with mpi4py, I wrote <a href="https://github.com/ACCarnall/mpi4py_utils">this code</a>, which automatically splits up an array and sends out equally sized chunks to each core, trivially speeding up repetitive tasks.</p>
+
+                    <hr>
+
+                    <h4 class="mb-4" style="margin-top:0.5cm">Spectral resampling</h4>
+
+                    <p style="margin-top:0cm; margin-bottom:0.8cm;">I wrote <a href="https://spectres.readthedocs.io/en/latest/">SpectRes</a> to resample spectroscopic data with associated uncertainties. I also published a quick <a href="https://arxiv.org/abs/1705.05165">research note on arXiv</a> explaing the method.</p>
 
           </div>
+
+    </section>
 
     </section>
     <footer class="ftco-footer ftco-bg-dark ftco-section">
